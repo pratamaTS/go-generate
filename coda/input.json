@@ -1,0 +1,23 @@
+{
+    "name": "dedicated_job_1",
+    "api": {
+        "create_user": {
+            "prefix": "user/create",
+            "method": "GET"
+        }
+    },
+    "action": {
+        "create_user": {
+            "param": {
+                "name": {
+                    "validation": ["required", "string", "max:50"],
+                    "data_type": "string"
+                },
+                "age": {
+                    "validation": ["required", "integer"],
+                    "data_type": "integer"
+                }
+            }
+        }
+    }
+}

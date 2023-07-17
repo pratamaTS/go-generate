@@ -1,0 +1,17 @@
+{
+    "iss": "jojonomic-jwt-service",
+    "iat": 1658993516,
+    "exp": 1690529516,
+    "sub": 13458,
+    "sess_id": 175667,
+    "user": {
+      "id": 13458,
+      "email": "jojoqa@mailinator.com",
+      "company_id": 414,
+      "user_company_id": 2353,
+      "user_role": 1,
+      "user_role_name": "admin"
+    },
+    "lang": "en_US",
+    "session_setting": 1
+  }

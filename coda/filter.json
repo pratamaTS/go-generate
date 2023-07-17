@@ -1,0 +1,10 @@
+{
+    "limit": 100,
+    "page": 1,
+    "filter": {
+      "where_is_and": {
+          "kind": "folder",
+          "parent_folder_id": ""
+      } 
+  }
+}
